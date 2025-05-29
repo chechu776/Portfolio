@@ -4,7 +4,7 @@
   scroll-behavior: smooth;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -812,8 +812,8 @@ footer {
     font-size: 15px;
     width: 70%;
   }
-  #main {
-    gap: 70px;
+  #main{
+    gap:70px;
   }
   #main .right img {
     width: 170px;
@@ -926,7 +926,7 @@ footer {
     color: #fff;
     font-size: 15px;
   }
-  .con .right a.button img {
+  .con .right a.button img{
     display: none;
   }
   .foot {
@@ -934,18 +934,11 @@ footer {
   }
 }
 @media all and (max-width: 640px) {
-  .wrapper {
+    .wrapper {
     padding: 0 10%;
   }
   header {
     padding: 0 10%;
-  }
-  header .right {
-    width: 50%;
-  }
-  header .right ul {
-    justify-content: start;
-    gap: 20px;
   }
   header .right li:nth-child(3) {
     display: none;
@@ -953,16 +946,10 @@ footer {
   header .right li:nth-child(4) {
     display: none;
   }
-  header .right li:nth-child(5) {
-    display: none;
+  #main{
+    gap:50px;
   }
-  header .right li:nth-child(6) {
-    display: none;
-  }
-  #main {
-    gap: 50px;
-  }
-  #main .middle p.gra {
+   #main .middle p.gra {
     font-size: 14px;
     width: 75%;
   }
@@ -982,14 +969,14 @@ footer {
   .middle a.button {
     width: 90px;
   }
-  .middle a.button img {
+  .middle a.button img{
     display: none;
   }
   .middle .scroll {
     width: 70%;
     gap: 6px;
   }
-  .middle .scroll img:nth-child(1) {
+  .middle .scroll img:nth-child(1){
     display: none;
   }
   #about h1 {
@@ -1000,7 +987,8 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
-  #about .abt .left {
+  #about .abt .left
+  {
     display: flex;
     justify-content: center;
   }
@@ -1008,7 +996,7 @@ footer {
     width: 200px;
     border-radius: 50%;
   }
-  #about .abt .right {
+  #about .abt .right{
     width: 100%;
     display: flex;
     align-items: center;
@@ -1023,37 +1011,38 @@ footer {
     gap: 20px;
     justify-content: space-around;
   }
-  #about .abt .right .cgpa .a:nth-child(3) {
+  #about .abt .right .cgpa .a:nth-child(3)
+  {
     display: none;
   }
   #skills h1 {
     font-size: 30px;
   }
-
-  .all {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
-    width: 80%;
-    margin: 0 auto;
-  }
-  #qualification h1 {
+  
+.all {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+#qualification h1 {
     font-size: 30px;
   }
   .qual {
     width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
   .study {
     padding: 20px 28px;
     width: 300px;
     text-align: center;
   }
-  .study h3 {
+  .study h3{
     margin-bottom: 10px;
   }
   #projects h1 {
@@ -1113,13 +1102,13 @@ footer {
     color: #fff;
     font-size: 14px;
   }
-  .con .right a.button img {
+  .con .right a.button img{
     display: none;
   }
   .foot {
     width: 80%;
   }
-  .foot .left h2 {
+  .foot .left h2{
     font-size: 24px;
   }
 }
@@ -1130,10 +1119,10 @@ footer {
   header {
     padding: 0 5%;
   }
-  header .right {
+  header .right{
     width: 50%;
   }
-  header .right ul {
+  header .right ul{
     justify-content: start;
     gap: 20px;
   }
@@ -1148,14 +1137,14 @@ footer {
   }
   header .right li:nth-child(5) {
     display: none;
-  }
-  header .right li:nth-child(6) {
+    }
+    header .right li:nth-child(6) {
     display: none;
   }
-  #main {
-    gap: 20px;
+  #main{
+    gap:20px;
   }
-  #main .middle p.gra {
+   #main .middle p.gra {
     font-size: 14px;
     width: 70%;
   }
@@ -1175,23 +1164,23 @@ footer {
   .middle a.button {
     width: 110px;
   }
-  .middle a.button img {
+  .middle a.button img{
     display: none;
   }
   .middle .scroll {
     width: 70%;
     gap: 6px;
   }
-  #about h1 {
+  #about h1{
     font-size: 28px;
   }
-  #about .abt .right a.button {
+  #about .abt .right a.button{
     width: 130px;
   }
-  #skills h1 {
+  #skills h1{
     font-size: 28px;
   }
-  #qualification h1 {
+  #qualification h1{
     font-size: 28px;
   }
   .qual {
@@ -1202,16 +1191,16 @@ footer {
     width: 250px;
     text-align: center;
   }
-  .study h3 {
+  .study h3{
     font-size: 18px;
   }
-  .study span {
+  .study span{
     font-size: 12px;
   }
-  #projects h1 {
+  #projects h1{
     font-size: 28px;
   }
-  #contact h1 {
+  #contact h1{
     font-size: 28px;
   }
   .con .left {
@@ -1256,19 +1245,20 @@ footer {
   .foot {
     width: 80%;
   }
-  .foot .left h2 {
+  .foot .left h2{
     font-size: 20px;
   }
-  .foot .middle {
+  .foot .middle
+  {
     width: 40%;
   }
   .foot ul {
     gap: 8px;
   }
-  .foot ul li a {
+  .foot ul li a{
     font-size: 14px;
   }
-  .foo p {
+  .foo p{
     font-size: 12px;
   }
 }
