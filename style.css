@@ -940,10 +940,23 @@ footer {
   header {
     padding: 0 10%;
   }
+  header .right {
+    width: 50%;
+  }
+  header .right ul {
+    justify-content: start;
+    gap: 20px;
+  }
   header .right li:nth-child(3) {
     display: none;
   }
   header .right li:nth-child(4) {
+    display: none;
+  }
+  header .right li:nth-child(5) {
+    display: none;
+  }
+  header .right li:nth-child(6) {
     display: none;
   }
   #main {
