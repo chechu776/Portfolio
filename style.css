@@ -4,7 +4,7 @@
   scroll-behavior: smooth;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -590,6 +590,7 @@ p.gra span {
 .con .left iframe {
   width: 350px;
   height: 300px;
+  border-radius: 10px;
   border: 0;
 }
 .con .right {
@@ -792,6 +793,12 @@ footer {
   .con .right .i label {
     font-size: 16px;
   }
+  .con .right .i input{
+    font-size: 12px;
+  }
+  .con .right .i textarea{
+    font-size: 16px;
+  }
   .con .right a.button {
     padding: 16px 20px;
     width: 130px;
@@ -812,8 +819,8 @@ footer {
     font-size: 15px;
     width: 70%;
   }
-  #main{
-    gap:70px;
+  #main {
+    gap: 70px;
   }
   #main .right img {
     width: 170px;
@@ -920,13 +927,16 @@ footer {
   .con .right .i input {
     font-size: 15px;
   }
+  .con .right .i textarea{
+    font-size: 15px;
+  }
   .con .right a.button {
     padding: 16px 20px;
     width: 100px;
     color: #fff;
     font-size: 15px;
   }
-  .con .right a.button img{
+  .con .right a.button img {
     display: none;
   }
   .foot {
@@ -934,7 +944,7 @@ footer {
   }
 }
 @media all and (max-width: 640px) {
-    .wrapper {
+  .wrapper {
     padding: 0 10%;
   }
   header {
@@ -946,10 +956,10 @@ footer {
   header .right li:nth-child(4) {
     display: none;
   }
-  #main{
-    gap:50px;
+  #main {
+    gap: 50px;
   }
-   #main .middle p.gra {
+  #main .middle p.gra {
     font-size: 14px;
     width: 75%;
   }
@@ -969,14 +979,14 @@ footer {
   .middle a.button {
     width: 90px;
   }
-  .middle a.button img{
+  .middle a.button img {
     display: none;
   }
   .middle .scroll {
     width: 70%;
     gap: 6px;
   }
-  .middle .scroll img:nth-child(1){
+  .middle .scroll img:nth-child(1) {
     display: none;
   }
   #about h1 {
@@ -987,8 +997,7 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
-  #about .abt .left
-  {
+  #about .abt .left {
     display: flex;
     justify-content: center;
   }
@@ -996,7 +1005,7 @@ footer {
     width: 200px;
     border-radius: 50%;
   }
-  #about .abt .right{
+  #about .abt .right {
     width: 100%;
     display: flex;
     align-items: center;
@@ -1011,38 +1020,37 @@ footer {
     gap: 20px;
     justify-content: space-around;
   }
-  #about .abt .right .cgpa .a:nth-child(3)
-  {
+  #about .abt .right .cgpa .a:nth-child(3) {
     display: none;
   }
   #skills h1 {
     font-size: 30px;
   }
-  
-.all {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 40px;
-  width: 80%;
-  margin: 0 auto;
-}
-#qualification h1 {
+
+  .all {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #qualification h1 {
     font-size: 30px;
   }
   .qual {
     width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 40px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
   .study {
     padding: 20px 28px;
     width: 300px;
     text-align: center;
   }
-  .study h3{
+  .study h3 {
     margin-bottom: 10px;
   }
   #projects h1 {
@@ -1097,18 +1105,21 @@ footer {
   .con .right .i input {
     font-size: 14px;
   }
+  .con .right .i textarea{
+    font-size: 14px;
+  }
   .con .right a.button {
     padding: 12px 16px;
     color: #fff;
     font-size: 14px;
   }
-  .con .right a.button img{
+  .con .right a.button img {
     display: none;
   }
   .foot {
     width: 80%;
   }
-  .foot .left h2{
+  .foot .left h2 {
     font-size: 24px;
   }
 }
@@ -1119,11 +1130,11 @@ footer {
   header {
     padding: 0 5%;
   }
-  header .right{
+  header .right {
     width: 50%;
   }
-  header .right ul{
-    justify-content: start;
+  header .right ul {
+    justify-content: space-around;
     gap: 20px;
   }
   header .right li:nth-child(3) {
@@ -1137,14 +1148,14 @@ footer {
   }
   header .right li:nth-child(5) {
     display: none;
-    }
-    header .right li:nth-child(6) {
+  }
+  header .right li:nth-child(6) {
     display: none;
   }
-  #main{
-    gap:20px;
+  #main {
+    gap: 20px;
   }
-   #main .middle p.gra {
+  #main .middle p.gra {
     font-size: 14px;
     width: 70%;
   }
@@ -1164,23 +1175,23 @@ footer {
   .middle a.button {
     width: 110px;
   }
-  .middle a.button img{
+  .middle a.button img {
     display: none;
   }
   .middle .scroll {
     width: 70%;
     gap: 6px;
   }
-  #about h1{
+  #about h1 {
     font-size: 28px;
   }
-  #about .abt .right a.button{
+  #about .abt .right a.button {
     width: 130px;
   }
-  #skills h1{
+  #skills h1 {
     font-size: 28px;
   }
-  #qualification h1{
+  #qualification h1 {
     font-size: 28px;
   }
   .qual {
@@ -1188,19 +1199,19 @@ footer {
   }
   .study {
     padding: 20px 28px;
-    width: 250px;
+    width: 280px;
     text-align: center;
   }
-  .study h3{
+  .study h3 {
     font-size: 18px;
   }
-  .study span{
+  .study span {
     font-size: 12px;
   }
-  #projects h1{
+  #projects h1 {
     font-size: 28px;
   }
-  #contact h1{
+  #contact h1 {
     font-size: 28px;
   }
   .con .left {
@@ -1237,6 +1248,9 @@ footer {
   .con .right .i input {
     font-size: 12px;
   }
+  .con .right .i textarea{
+    font-size: 12px;
+  }
   .con .right a.button {
     padding: 12px 25px;
     color: #fff;
@@ -1245,20 +1259,226 @@ footer {
   .foot {
     width: 80%;
   }
-  .foot .left h2{
+  .foot .left h2 {
     font-size: 20px;
   }
-  .foot .middle
-  {
+  .foot .middle {
     width: 40%;
   }
   .foot ul {
     gap: 8px;
   }
-  .foot ul li a{
+  .foot ul li a {
     font-size: 14px;
   }
-  .foo p{
+  .foo p {
     font-size: 12px;
   }
+}
+@media all and (max-width: 360px) {
+  header {
+    justify-content: flex-start;
+  }
+  header .right {
+    width: fit-content;
+  }
+  header .right ul {
+    margin-left: 80px;
+  }
+  header .right li:nth-child(2) {
+    display: none;
+  }
+  #main {
+    gap: 10px;
+  }
+  #main .middle p.gra {
+    font-size: 12px;
+    width: 70%;
+  }
+
+  #main .right img {
+    width: 120px;
+    border-radius: 50% 10%;
+  }
+  #main .middle h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  #main .middle span.deg {
+    font-size: 14px;
+  }
+  .middle a.button {
+    width: 90px;
+    font-size: 12px;
+  }
+  .middle a.button img {
+    display: none;
+  }
+  .middle .scroll {
+    width: 60%;
+    gap: 6px;
+  }
+  .middle .scroll p{
+    font-size: 12px;
+  }
+  .middle .scroll img{
+    width: 15px;
+  }
+  #about h1 {
+    font-size: 24px;
+  }
+  #about p{
+    font-size: 14px;
+  }
+  #about .abt .left img{
+    width: 140px;
+  }
+  #about .right p.ab{
+    font-size: 14px;
+  }
+  #about .abt .right a.button {
+    width: 130px;
+  }
+  #about .abt .right .cgpa h1{
+    font-size: 20px;
+  }
+  #about .abt .right .cgpa .a span{
+    font-size: 12px;
+  }
+  #skills h1 {
+    font-size: 24px;
+  }
+  #skills p{
+    font-size: 14px;
+  }
+  #skills .tech h2{
+    font-size: 18px;
+  }
+  #skills .tech li{
+    font-size: 14px;
+  }
+  #qualification h1 {
+    font-size: 24px;
+  }
+  #qualification p{
+    font-size: 14px;
+  }
+  #qualification .edu a{
+    font-size: 18px;
+  }
+  #projects h1 {
+    font-size: 24px;
+  }
+  #projects p{
+    font-size: 14px;  
+  }
+  #projects .pro .jets{
+    padding: 18px 20px;
+  }
+  #projects .pro .jets h2{
+    font-size: 18px;
+  }
+  #projects .pro .jets a{
+    font-size: 12px;
+  }
+  #projects .pro .jets img{
+    width: 100%;
+  }
+  #contact h1 {
+    font-size: 24px;
+  }
+  #contact p.ge{
+    font-size: 14px;
+  }
+  .con{
+    width: 100%;
+    gap: 10px;
+  }
+  .con .left {
+    width: 50%;
+    gap: 30px;
+  }
+  .con .left .c {
+    width: 60%;
+  }
+  .con .left .c p {
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .con .left .c p span {
+    font-size: 10px;
+  }
+  .con .left .c img {
+    width: 15px;
+    height: 20px;
+  }
+  .con .left iframe {
+    width: 140px;
+    height: 140px;
+    border: 0;
+  }
+  .con .right .i {
+    min-width: 140px;
+  }
+  .con .right .i label {
+    font-size: 12px;
+  }
+  .con .right .i input {
+    font-size: 12px;
+  }
+  .con .right .i textarea{
+    font-size: 12px;
+  }
+  .con .right a.button {
+    width: 90px;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .foot {
+    width: 100%;
+  }
+  .foot .left h2 {
+    font-size: 18px;
+  }
+  .foot .left p{
+    font-size: 14px;
+  }
+  .foot .middle {
+    width: 40%;
+  }
+  .foot ul {
+    gap: 8px;
+  }
+  .foot ul li a {
+    font-size: 12px;
+  }
+  .foot ul li:last-child{
+    display: none;
+  }
+  .foo p {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 320px){
+  .wrapper{
+    padding: 0 2%;
+  }
+  header{
+    padding: 0 2%;
+  }
+   #main .right img {
+    width: 100px;
+    border-radius: 50% 10%;
+  }
+  .con .left iframe {
+    width: 130px;
+    height: 130px;
+    border: 0;
+  }
+  .con .right .i {
+  padding: 8px 12px;
+}
 }
